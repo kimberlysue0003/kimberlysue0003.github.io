@@ -96,7 +96,7 @@ function createProjectCard(project) {
     } else if (project.image) {
         // Otherwise show the image
         mediaContent = `
-            <img src="${project.image}" alt="Project Image" onerror="this.src='https://via.placeholder.com/400x250/6366f1/ffffff?text=Project'">
+            <img src="${project.image}" alt="Project Image" onerror="this.style.display='none'">
             <div class="project-overlay">
                 <div class="project-links">
                     ${project.liveLink ? `
