@@ -20,6 +20,18 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animations.css">
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0MBZYTQF0V"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-0MBZYTQF0V', {
+            page_title: 'Kimberly Su - Portfolio',
+            page_path: window.location.pathname
+        });
+    </script>
 </head>
 <body>
     <!-- Loading Screen -->
@@ -328,5 +340,6 @@
     <script src="js/three-background.js"></script>
     <script src="js/animations.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/analytics.js"></script>
 </body>
 </html>
